@@ -7,7 +7,7 @@ function App() {
   async function loadMessage() {
 
     const response = await fetch(
-      'http://webhosttryout-backend-gghjgea0c6csehae.centralus-01.azurewebsites.net/api/hello'
+      'https://webhosttryout-backend-gghjgea0c6csehae.centralus-01.azurewebsites.net/api/hello'
     )
 
     const data = await response.json()
